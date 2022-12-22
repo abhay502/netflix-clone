@@ -1,0 +1,108 @@
+/* CSS VARIABLES */
+:root {
+    --primary: #fbfbfb;
+    --light: #F3F3F3;
+    --dark: 	#686868;
+  }
+  
+  html, body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    color: var(--light);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.4;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+  }
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  /* LINKS */
+  .link {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 4fr));
+    text-align: center;
+    
+  }
+ 
+  
+  .sub-links ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
+  
+  .sub-links a {
+    color: var(--dark);
+    text-decoration: none;
+  }
+  
+  .sub-links a:hover {
+    color: var(--dark);
+    text-decoration: underline;
+  }
+  
+  .logos a{
+    padding: 10px;
+    
+  }
+  
+  .logo {
+    color: white;
+  }
+  
+  
+  /* FOOTER */
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+  }
+  
+  
+  
+ 
+  
+
+   
+  
+   
+   
+  
+    .logos {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+    }
+  
+    .sub-links ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    
+  
+    
+     
+  

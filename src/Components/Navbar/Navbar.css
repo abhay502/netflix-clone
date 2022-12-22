@@ -6,7 +6,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(17, 17, 17, 0.473);
+    background-color: rgba(17, 17, 17, 0.429);
     color: aliceblue;
      
 }
@@ -14,6 +14,7 @@
     position: fixed;
     left: 20px;
     width: 90px;
+    cursor: pointer;
 
 }
 

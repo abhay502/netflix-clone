@@ -15,7 +15,7 @@ function Banner() {
       
       
        
-    })
+    })         
 
   },[])
   console.log(movie);
